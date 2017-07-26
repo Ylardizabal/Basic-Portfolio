@@ -1,23 +1,20 @@
 header
 {
-	position: fixed;
+	position: absolute;
 	background-color: white;
 	height: 60px;
 	width: 100%;
-	float: top;
 	margin: 0;
-	margin-left: 0;
 	font-family: Georgia;
 	border-color: #cccccc;
 }	
 
 	h1
 	{
-		position: fixed;
-		margin-left: 200px;
+		position: absolute;
+		left:40px;
 		background-color: #4aaaa5;
 		text-align: center;
-		float: left;
 		padding: 10px;
 		margin-top: 0;
 		margin-bottom: 10;
@@ -26,9 +23,10 @@ header
 
 	nav
 	{
+		position: absolute;
 		font: 20px;
+		right: 40px;
 		margin-top: 20px;
-		margin-right: 350px;
 		text-align: center;
 		float: right;
 		font-family: Arial;
@@ -50,15 +48,12 @@ body
 
 	.container-box
 	{
-		position: fixed;
-		margin-top: 100px;
+		position: absolute;
+		margin-top: 75px;
 		background: white;
-		margin-left: 200px;
-		margin-right: 400px;
+		left: 40px;
 		height: 400px;
 		width: 650px;
-		border-color: black;
-		float: left;
 	}
 
 		h2
@@ -107,13 +102,13 @@ body
 
 .contact-box
 	{
-		position: fixed;
+		position: absolute;
 		margin-top: 100px;
 		background: white;
 		height: 200px;
 		width: 270px;
-		border-color: black;
-		margin-left: 1240px;
+		right: 30px;
+		
 	}
 
 	h3
@@ -125,10 +120,15 @@ body
 			text-align: center;
 		}
 
+	.image2 img, .image3 img, .image4 img
+		{
+			height: 100%;
+			width: 100%;
+		}
+
 	.image2
 		{
-			content: url("../images/github.png");
-			height: 60px;
+			height: 55px;
 			width: 55px;
 			padding-right: 15px;
 			padding-bottom: 15px;
@@ -138,8 +138,7 @@ body
 
 	.image3
 		{
-			content: url("../images/linkedin.png");
-			height: 60px;
+			height: 55px;
 			width: 55px;
 			padding-right: 15px;
 			padding-bottom: 15px;
@@ -148,8 +147,7 @@ body
 
 	.image4
 		{
-			content: url("../images/stackoverflow.png");
-			height: 60px;
+			height: 55px;
 			width: 55px;
 			padding-right: 15px;
 			padding-bottom: 15px;
