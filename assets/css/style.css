@@ -113,19 +113,9 @@ body
 		width: 270px;
 		right: 30px;
 		color: #777777;
-		font-size: 20px;
 		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 		
 	}
-
-	h3
-		{
-			color:#4aaaa5;
-			margin-top: 20px;
-			margin-bottom: 20px;
-			width: 100%;
-			text-align: center;
-		}
 
 	.image2 img, .image3 img, .image4 img
 		{
@@ -208,63 +198,50 @@ body
 	position: absolute;
 	margin-top: 75px;
 	background: white;
-	left: 45px;
-	height: 850px;
-	width: 600px;
-	float: left;
-	margin-bottom: 10px;
+	left: 40px;
+	height: 980px;
+	width: 650px;
+	margin-bottom: 100px;
 }
 
-	.image5 img
+	.work 
 	{
-		position: relative;
-		left: 50px;
-		padding: 20px;
-		height: 200px;
-		width: 200px;
+		  position: relative;
+		  float: left;
+		  width: 274px;
+		  margin-left: 25px;
+		  margin-top: 10px;
+		  margin-bottom: 10px
+		  margin-right: 25px;
+		 	}
+
+	.work: nth-child(even) 
+	{
+  			margin-right: 40px;
 	}
 
-	.image6 img
+	.work img
 	{
-		position: relative;
-		left: 50px;
-		padding: 20px;
-		height: 200px;
-		width: 200px;
-
+		width: 100%;
+		opacity: 0.8;
+		border: 1px solid;
 	}
 
-	.image7 img
-	{
-		position: relative;
-		left: 50px;
-		padding: 20px;
-		height: 200px;
-		width: 200px;
-
-	}
-
-	.image8 img
-	{
-		position: relative;
-		left: 300px;
-		bottom: 730px;
-		padding: 20px;
-		height: 200px;
-		width: 200px;
-
-	}
-
-	.image9 img
-	{
-		position: relative;
-		left: 300px;
-		bottom: 730px;
-		padding: 20px;
-		height: 200px;
-		width: 200px;
-
-	}
+		.work h3
+		{
+			position: absolute;
+			bottom: 20px;
+			width: 80%;
+			padding: 15px;
+			margin-bottom: 0;
+			font-weight: 300;
+			line-height: 30px;
+			color: white;
+			text-align: center;
+			background: teal;
+			border-bottom: 0;
+			margin-left: 10px;
+		}
 
 footer
 	{
