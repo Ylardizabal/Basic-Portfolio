@@ -117,6 +117,12 @@ body
 		
 	}
 
+	.contact-box h2
+	{
+			text-align: center;
+			margin-left: 0;
+	}
+
 	.image2 img, .image3 img, .image4 img
 		{
 			height: 100%;
