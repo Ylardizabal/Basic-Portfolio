@@ -166,8 +166,9 @@ body
 	margin-top: 75px;
 	background: white;
 	left: 40px;
-	height: 500px;
+	height: 550px;
 	width: 650px;
+	margin-bottom: 100px;
 		}
 
 	label
@@ -192,12 +193,13 @@ body
 
 	input[type=submit] 
 	{
-		    background-color: #4CAF50;
+		    background-color: teal;
 		    color: white;
 		    padding: 12px 20px;
 		    border: none;
 		    border-radius: 4px;
 		    cursor: pointer;
+		    margin-left: 20px;
 			}
 
 .container-box3
@@ -209,7 +211,7 @@ body
 	height: 850px;
 	width: 600px;
 	float: left;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 
 	.image5 img
